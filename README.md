@@ -10,7 +10,7 @@ sensor which is a three-axis accelerometer and
 gyroscope. To have a simultaneous check on health 
 as well, we make use of a pulse sensor. Further, a 
 GPS sensor is used to find the location of the device. 
-**• Processing: **
+**• Processing:**
 For the task of processing, we make use 
 of the NodeMCU ESP8266 module which executes 
 our main logic of fall detection. We preferred it over 
@@ -30,7 +30,7 @@ Over any other communication technology, WiFi
 has the advantage of enabling long range 
 communication and hence makes our device 
 portable. 
-**• Cloud: **
+**• Cloud:**
 While the fall detection logic is 
 implemented on the edge, the cloud plays the role 
 in storing the history of falls and regular pulse data. 
